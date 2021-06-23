@@ -48,7 +48,7 @@
         <jackson.version>2.4.2</jackson.version>
         <jetty8.version>8.1.11.v20130520</jetty8.version>
         <jetty9.legacy.version>9.0.4.v20130625</jetty9.legacy.version>
-        <jetty9.version>9.2.2.v20140723</jetty9.version>
+        <jetty9.version>9.4.41.v20210516</jetty9.version>
         <rabbitmq.version>3.3.5</rabbitmq.version>
     </properties>
 
@@ -256,7 +256,7 @@
                         <id>enforce</id>
                         <configuration>
                             <rules>
-                                <DependencyConvergence />
+                                <DependencyConvergence/>
                             </rules>
                         </configuration>
                         <goals>
